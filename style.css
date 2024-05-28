@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Arial, sans-serif';
+    line-height: 1.6;
+    background: url('images/fashion.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Overlay to enhance text visibility */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+/* Header Styles */
+header {
+    background: rgba(106, 17, 203, 0.8); /* semi-transparent background */
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    transition: background 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+main h2 {
+    color: #6a11cb;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #6a11cb;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+main p {
+    font-size: 1.1rem;
+}
+
+main img {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(52, 58, 64, 0.9);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer img {
+    width: 100px;
+    margin-top: 0.5rem;
+}
